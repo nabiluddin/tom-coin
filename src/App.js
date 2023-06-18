@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
+
+import upexchanges from "./assets/upexchanges.png";
+import FO from "./assets/FO.png";
+import tokonomics from "./assets/tokonomics.png";
+
+import {Intro, UpExchange, About, BOP, EarningCalc, TokenAirdrop, Disclaimer} from './container/';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Intro/>
+      <UpExchange text="Find Doge AI Upcoming on Exchanges" image={upexchanges} backgroundColor="#D78FC2" />
+      <About />
+      <BOP />
+      <UpExchange text="Featured on" image={FO} backgroundColor="#D78FC2" colorT='#151515' />
+      <UpExchange text="Tokonomics" image={tokonomics} backgroundColor="#8FD792" colorT='#151515' />
+      <EarningCalc />
+      <TokenAirdrop />
+      <Disclaimer />
+
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

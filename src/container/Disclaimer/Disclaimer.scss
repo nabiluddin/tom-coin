@@ -1,0 +1,66 @@
+.upper-disc{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff1fb;
+
+}
+
+.backBox-disc {
+  box-sizing: border-box;
+  margin: 3rem;
+  width: 95%;
+  height: 80%;
+  border: 7px solid #151515;
+  border-radius: 20px;
+  background: #986188;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem;
+  gap: 12px;
+
+  
+  .head-txt-disc {
+    color: #FFFFFF;
+    margin: 0.7rem;
+    text-align: center;
+    margin-top: 0;
+    font-weight: 800;
+    font-size: 37px;
+    line-height: 57px;
+  }
+
+  .p-text-disc {
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+    padding: 0 2rem;
+    margin-bottom: 0.8rem;
+  }
+  .c-toj-disc{
+    width: 110px;
+  }
+  .footer-disc{
+    margin: 1.5rem;
+    width: 500px;
+  }
+  .foor-bar-disc{
+    height: 2.2px;
+    padding: 0;
+    background-color: #FFFFFF;
+    width: 97%;
+  }
+}

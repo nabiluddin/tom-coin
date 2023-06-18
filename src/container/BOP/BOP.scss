@@ -1,0 +1,147 @@
+.bs {
+  padding: 2px;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  margin: 2px;
+  width: 95%;
+  height: 80%;
+  border: 7px solid #151515;
+  border-radius: 20px;
+  background: #6AD3EA;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.bupperBOP{
+  background: #fff1fb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.bbgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+.ellipse {
+  position: absolute;
+  border-radius: 48.7%;
+}
+
+.bbg0 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #98EDFF;
+
+  position: absolute;
+  width: 37%;
+  height: 60%;
+  top: 111px;
+  z-index: 4;
+}
+.bbg1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #98EDFF;
+
+  position: absolute;
+  width: 52%;
+  height: 79%;
+  top: 59px;
+  z-index: 3;
+}
+
+.bbg2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #80E8FF;
+
+  position: absolute;
+  width: 66%;
+  height: 93%;
+  // left: 151px;
+  top: 20px;
+  z-index: 2;
+}
+
+.bbg3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #71E1F9;
+
+  position: absolute;
+  width: 80%;
+  height: 110%;
+  // left: 151px;
+  top: -40px;
+  z-index: 1;
+}
+
+.bbg4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #70DBF2;
+
+  width: 96%;
+  height: 134%;
+  position: absolute;
+  top: -109px;
+  z-index: 0;
+
+  @media screen and (max-height: 700px) {
+    // top: -30px;
+  }
+}
+
+.bcontact {
+  position: relative;
+  z-index: 10;
+  color: #151515;
+  // margin-top: 1.b4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 57px;
+  margin: 4rem;
+  margin-top: 1rem;
+}
+
+
+.bcenterP {
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  height: 100%;
+  top: -50px;
+  // margin-top: 4rem;
+
+  img {
+    position: relative;
+    width: 400px;
+    // top:100px;
+    // bottom: 80px;
+  }
+}
+

@@ -1,0 +1,37 @@
+.upper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff1fb;
+
+}
+
+.backBox {
+  box-sizing: border-box;
+  margin: 3rem;
+  margin-top: 8rem;
+  // position: absolute;
+  width: 95%;
+  height: 80%;
+  border: 7px solid #151515;
+  border-radius: 20px;
+  // background: #D78FC2;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // align-items: center;
+  padding: 3rem;
+
+  .singleTxt{
+    color: #FFFFFF;
+    margin: 1.6rem;
+    text-align: center;
+    margin-top: 0;
+    font-weight: 800;
+    font-size: 37px;
+    line-height: 57px;
+  }
+}

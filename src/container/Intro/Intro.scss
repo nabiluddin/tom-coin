@@ -1,0 +1,215 @@
+.s {
+  padding: 2px;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  margin: 2px;
+  height: 103vh;
+  width: 97vw;
+  border: 7px solid #151515;
+  border-radius: 20px;
+  background: #986188;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.bgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+.ellipse {
+  position: absolute;
+  border-radius: 48.7%;
+}
+
+.bg0 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #C894B8;
+  ;
+  position: absolute;
+  width: 37%;
+  height: 60%;
+  top: 111px;
+  z-index: 4;
+}
+
+.bg1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #BB86AB;
+  position: absolute;
+  width: 52%;
+  height: 79%;
+  top: 59px;
+  z-index: 3;
+}
+
+.bg2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #AE7A9E;
+  position: absolute;
+  width: 66%;
+  height: 93%;
+  // left: 151px;
+  top: 20px;
+  z-index: 2;
+}
+
+.bg3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #A46F94;
+  position: absolute;
+  width: 80%;
+  height: 110%;
+  // left: 151px;
+  top: -40px;
+  z-index: 1;
+}
+
+.bg4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9D688E;
+  width: 96%;
+  height: 134%;
+  position: absolute;
+  top: -109px;
+  z-index: 0;
+
+  @media screen and (max-height: 700px) {
+    // top: -30px;
+  }
+}
+
+.content {
+  z-index: 5;
+  position: relative;
+  height: 100%;
+
+
+  nav {
+    // width: 127px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -10px;
+
+    img {
+      width: 100px;
+      padding-left: 3rem;
+    }
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-decoration: none;
+
+      li {
+        padding: 0 1rem;
+        list-style-type: none;
+        font-style: normal;
+        stroke-width: 300;
+        line-height: 1.4rem;
+        color: #FFFFFF;
+        font-weight: 360;
+        letter-spacing: 0.18px;
+        width: 90px;
+        font-size: 0.88rem;
+        margin-left: -1.4rem;
+        transition: all 0.1s ease-in-out;
+
+        &:hover {
+          cursor: pointer;
+          color: #f5cd09;
+          transform: scale(1.1);
+        }
+
+      }
+
+     
+
+    }
+
+  }
+
+}
+
+button {
+  font-weight: 800;
+  font-size: 1rem;
+  padding: 6px 15px 4px 15px;
+  margin-right: 4rem;
+  width: 110px;
+  height: 42px;
+
+  background: #E0BD06;
+  border-width: 1px 3px 3px 1px;
+  border-style: solid;
+  border-color: #151515;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    cursor: pointer;
+    background: #f5cd09;
+    transform: scale(1.05);
+
+  }
+}
+
+
+.footerBar {
+  position: absolute;
+  bottom: -50px;
+  width: 98vw;
+  height: 130px;
+  z-index: 11;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 -1rem;
+}
+
+.centerP {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  height: 100%;
+  margin-top: 4rem;
+
+  img {
+    width: 440px;
+  }
+}
+
+.contact {
+  color: #FFFFFF;
+  margin-top: 1.4rem;
+}
+
+.PresaleBTN {
+  width: 200px;
+  margin-top: 1.4rem;
+  margin-right: -0.7rem;
+}
+
+.logos {
+  margin-top: 1.4rem;
+  margin-bottom: 13rem;
+
+}

@@ -1,0 +1,120 @@
+.upper-ta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff1fb;
+
+}
+
+.backBox-ta {
+  box-sizing: border-box;
+  margin: 3rem;
+  width: 95%;
+  height: 80%;
+  border: 7px solid #151515;
+  border-radius: 20px;
+  background: #FFB9D7;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: normal;
+  padding: 2.5rem;
+
+  .head-txt {
+    color: #151515;
+    margin: 0.7rem;
+    text-align: center;
+    margin-top: 0;
+    font-weight: 800;
+    font-size: 37px;
+    line-height: 57px;
+  }
+
+  .p-text {
+    font-weight: 450;
+    font-size: 13px;
+    line-height: 18px;
+    color: #151515;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+    padding: 0 4rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .main-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+
+    
+
+    .fb {
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      margin: 0.6rem;
+      padding: 2rem 1rem;
+      border-width: 1px 4px 4px 1px;
+      border-style: solid;
+      border-color: #151515;
+      border-radius: 10px;
+      height: 200px;
+      width: 440px;
+      transition: all 0.3s ease-in-out;
+
+        &:hover {
+          cursor: pointer;
+          background: #f5cd09;
+          transform: scale(1.03);
+        }
+
+      .pu-text {
+        margin: 0.5rem 0;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        color: #151515;
+      }
+
+      .pi-text {
+        font-weight: 340;
+        font-size: 13px;
+        line-height: 16px;
+        color: #151515;
+        margin: -0.5rem 0;
+        // margin-left: 3rem;
+      }
+
+      .logos-ta {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        top: -20px;
+      }
+
+    }
+    .fb-1 {
+      background: #F9A9CB;
+    }
+
+    .fb-2 {
+      background: #F49DC2;
+    }
+
+    .fb-3 {
+      background: #F191BA;
+    }
+
+  }
+}
